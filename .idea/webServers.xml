@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d2474169-5faa-473c-b3d5-c6f01d97e883" name="handmade" url="http://huts6.ftp.tools">
+        <fileTransfer rootFolder="/hutsaluck.site/handmade" host="huts6.ftp.tools" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+.swiper-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.swiper-container .swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-container .swiper-slide:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    z-index: -1;
+}
+.swiper-container .swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
